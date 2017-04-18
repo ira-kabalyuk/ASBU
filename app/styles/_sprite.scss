@@ -1,0 +1,96 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-button {
+  background-image: url(../images/sprite.png);
+  background-position: -64px -40px;
+  width: 18px;
+  height: 16px;
+}
+.icon-cart-close {
+  background-image: url(../images/sprite.png);
+  background-position: -44px -20px;
+  width: 16px;
+  height: 16px;
+}
+.icon-cart {
+  background-image: url(../images/sprite.png);
+  background-position: -20px -58px;
+  width: 22px;
+  height: 18px;
+}
+.icon-fb-footer {
+  background-image: url(../images/sprite.png);
+  background-position: -44px 0px;
+  width: 20px;
+  height: 20px;
+}
+.icon-fb-head {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -38px;
+  width: 20px;
+  height: 20px;
+}
+.icon-insta-footer {
+  background-image: url(../images/sprite.png);
+  background-position: -20px -38px;
+  width: 20px;
+  height: 20px;
+}
+.icon-insta-head {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -18px;
+  width: 20px;
+  height: 20px;
+}
+.icon-menu-close {
+  background-image: url(../images/sprite.png);
+  background-position: -64px 0px;
+  width: 20px;
+  height: 20px;
+}
+.icon-mobile-menu {
+  background-image: url(../images/sprite.png);
+  background-position: 0px 0px;
+  width: 24px;
+  height: 18px;
+}
+.icon-tel-footer {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -58px;
+  width: 20px;
+  height: 20px;
+}
+.icon-viber-footer {
+  background-image: url(../images/sprite.png);
+  background-position: -40px -38px;
+  width: 20px;
+  height: 20px;
+}
+.icon-vk-footer {
+  background-image: url(../images/sprite.png);
+  background-position: -24px 0px;
+  width: 20px;
+  height: 20px;
+}
+.icon-vk-head {
+  background-image: url(../images/sprite.png);
+  background-position: -64px -20px;
+  width: 20px;
+  height: 20px;
+}
