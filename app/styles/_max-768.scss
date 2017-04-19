@@ -1,0 +1,110 @@
+$icon-font-path: '../fonts/';
+
+$page-color: #393939;
+$gray-color: #858585;
+$border-color: #d8d8d8;
+$black-color: #111111;
+$blue-color: #3c4f90;
+
+@media only screen and (max-width: 768px) {
+
+	//HEADER
+
+	.logo {
+		width: 120px;
+	}
+
+	.header {
+		padding: 15px 0;		
+
+	}
+
+	.button-wrap {
+       margin-top: 10px;
+    }
+
+	.content-flex-wrap {
+		justify-content: space-between;	
+	}
+  
+  	//nav
+
+		.navigation {
+			width: auto;
+
+			ul {
+				height: 0;
+				overflow: hidden;
+				position: absolute;
+				left: 0;			
+				transition: height .4s;
+				padding: 0 15px;
+				overflow-y: auto;
+				-webkit-overflow-scrolling: touch;
+				z-index: 1000;
+				background: #fff;
+				top: 125px;
+
+				flex-direction: column;
+
+				li {
+					width: 100%;
+
+					a {
+						font-size: 18px;
+						padding: 5px 0;						
+					}
+
+				}
+
+				&.showing {
+					height: calc(100vh - 135px);
+				}
+
+			}
+
+			
+		}
+
+  	.mobile-menu {
+			cursor: pointer;
+			width: 35px;
+			height: 35px;
+			background: linear-gradient(to right, #7f4597, #c6529a);
+			text-align: center;	
+			line-height: 35px;
+			margin-top: 10px;
+			
+			.icon-menu {
+				vertical-align: middle;
+			}
+
+		/*.icon-menu-close {
+			display: none;
+		}	*/
+
+	}
+
+	.is-open {
+
+	/*	.icon-mobile-menu {
+			display: none;
+		}
+
+		.icon-menu-close {
+			background-image: url(../images/icon-menu-close.svg);    
+	    width: 20px;
+    	height: 20px;	
+			background-size: cover;
+	    background-repeat: no-repeat;
+	    background-position: 100% 100%;
+			display: inline-block;
+			
+		}*/
+
+	}
+
+	//END HEADER
+	
+  
+}

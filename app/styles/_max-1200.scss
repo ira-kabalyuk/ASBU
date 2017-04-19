@@ -6,14 +6,10 @@ $border-color: #d8d8d8;
 $black-color: #111111;
 $blue-color: #3c4f90;
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1366px) {	
 
-    //HEADER
+   .navigation {
+       padding: 0 5px;
+   }
 
-    .button-wrap {
-        display: none;
-    }
-
-    //END HEADER
-  
 }
