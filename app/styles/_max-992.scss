@@ -6,7 +6,18 @@ $border-color: #d8d8d8;
 $black-color: #111111;
 $blue-color: #3c4f90;
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
+
+	.column-list {
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+
+	li {
+		width: 100%;
+		margin: 10px 0;
+	}
+}
 
 	//HEADER
 
@@ -106,5 +117,34 @@ $blue-color: #3c4f90;
 
 	//END HEADER
 	
-  
+  //MAIN-PAGE
+
+  .main-section {
+	  background-position: 50% 50%;
+	  padding: 30px 0;
+
+	  .content-flex-wrap {
+		flex-direction: column;
+		justify-content: center;
+		min-height: auto;
+	  }
+
+	  .main-column-left {
+		  width: 100%;
+	  }
+
+	  .title {
+		  text-align: center;
+	  }
+
+	  .main-column-right {
+		  width: 100%;
+	  }
+  }
+
+  .main-col-section {
+	  padding: 20px 0;
+  }
+
+  // END MAIN-PAGE
 }

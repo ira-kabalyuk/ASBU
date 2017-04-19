@@ -8,6 +8,11 @@ $blue-color: #3c4f90;
 
 @media only screen and (max-width: 767px) {
 
+    .title {
+		  text-align: center;
+          font-size: 30px;
+	  }
+
     //HEADER
 
     .button-wrap {
@@ -15,5 +20,16 @@ $blue-color: #3c4f90;
     }
 
     //END HEADER
+
+     //MAIN-PAGE
+
+  .main-section {
+	 
+     .description {
+         padding: 20px 0;
+     }
+  }
+
+  // END MAIN-PAGE
   
 }

@@ -18,6 +18,7 @@ body {
 	background: #fff;	
 	min-width: 320px;
 	height: 100%;	
+	overflow-x: hidden;
 }
 
 .hidden {
@@ -46,7 +47,7 @@ opacity:1;
 
 .slide-wrap {
 	width: 480px;	
-	height: 100vh;	
+	min-height: 100%;	
 	float: right;
 	position: relative;
 
@@ -62,8 +63,8 @@ opacity:1;
 	}
 
 	img {
-		width: 100%;
-		height: 100vh;
+		//width: 100%;
+		min-height: 100%;
 		 -o-object-fit: cover;
     	object-fit: cover;
 	}
@@ -135,6 +136,27 @@ opacity:1;
 		color: #fff;
 		text-decoration: none;
 		transition: all 0.5s ease;
+	}
+}
+
+.title {
+	font-size: 64px;
+	font-weight: 700;
+}
+
+.description {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 700;	
+}
+
+.column-list {
+	display: flex;
+	margin: 0 -28px;
+
+	li {
+		width: calc(33.3% - 28px);
+		margin: 0 28px;
 	}
 }
 

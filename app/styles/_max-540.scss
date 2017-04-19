@@ -8,10 +8,35 @@ $blue-color: #3c4f90;
 
 @media only screen and (max-width: 540px) {
 
-	//HEADER
+//MAIN-PAGE
 
-    
-    //END HEADER
+  .main-section {
+	 
+     .description {
+        font-size: 14px;
+     }
+  }
+
+  .main-col-section {
+
+      .column-list {
+
+          li {
+              padding: 0 15px;
+          }
+      }
+  }
+
+  .list-title {
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+
+  .list-description {
+      font-size: 14px;
+  }
+
+  // END MAIN-PAGE
 
 }
 
