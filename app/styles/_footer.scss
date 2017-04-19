@@ -6,135 +6,82 @@ $border-color: #d8d8d8;
 $black-color: #111111;
 $blue-color: #3c4f90;
 
+.contacts-section {
+	margin-bottom: 50px;
 
-.footer {
-	margin-top: -45px;   
-    position: relative;	
-
-	.footer-title {
-		font-size: 16px;
-		font-weight: 600;
-		color: #fff;
-		margin-bottom: 28px;
+	.column-list {
+		margin-top: 30px;
 	}
+}
 
-	.tab_content-list {
+.icon-mail {
+	margin-right: 5px;
+}
 
-		li {
-			margin-bottom: 5px;
+.contact-name {
+	font-size: 12px;
+	margin-bottom: 10px;
+}
 
-			&:last-child {
-				margin-bottom: 0;
-			}
+.contact-link {
+	color: #000;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
 
-			a {
-				display: inline-block;
-				font-size: 14px;
-				color: #b4adad;
+	&:hover {
+		color: #000;
+	}
+}
 
-				&:hover,
-				&:focus,
-				&:active {
-					color: #b4adad;
-					text-decoration: underline;
-				}
+.social {
+	font-family: 'Lato', sans-serif;
+	display: inline-block;
+	font-size: 20px;
+	color: #000;
 
-			}
+	.icon {
+		vertical-align: middle;
+		margin-right: 5px;
+	}
+}
 
-		}
+
+.footer {	
+	width: 100%;	
+	margin-top: -195px;
+	position: relative;
+	z-index: 100;
+
+	.footer-column-list {
+		justify-content: space-between;	
+		align-items: center;
 		
 	}
 
-	.footer-button {
-				display: inline-block;
-				color: #fff;
-				font-size: 14px;
-				font-weight: 600;
-				background: #433c3c;
-				padding: 8px 0;				
-				width: 133px;
-				text-align: center;
-				border-radius: 3px;
-
-			&:hover,
-			&:focus,
-			&:active {
-				color: #fff;
-				background: rgba(67, 60, 60, 0.8);
-				text-decoration: none !important;
-		}
-
-	}	
-
-	
-	.footer-net-list {
-		text-align: justify;
-		padding-top: 10px;
-		width: 133px;
-
-		&:after {
-			content: "";
-			display: inline-block;
-			width: 100%
-		}
-
-	 	li {
-	 		display: inline-block;
-	 		margin-bottom: 0;	 		
-
-		 	a {
-				display: inline-block;
-		 	}
-
-	 	}
-
-	}
-
-	.icon-viber-footer {
-		background-image: url(../images/icon-viber-footer.svg);
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: 100% 100%;
-		width: 20px;
-		height: 20px;
-	}
-
-	.icon-tel-footer {
-		background-image: url(../images/icon-tel-footer.svg);
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: 100% 100%;
-		width: 20px;
-		height: 20px;
-	}
-
-	.icon-insta-footer {
-		background-image: url(../images/icon-insta-footer.svg);
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: 100% 100%;
-		width: 20px;
-		height: 20px;
-	}
-
-	.icon-vk-footer {
-		background-image: url(../images/icon-vk-footer.svg);
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: 100% 100%;
-		width: 20px;
-		height: 20px;
-	}
-
-	.icon-fb-footer {
-		background-image: url(../images/icon-fb-footer.svg);
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: 100% 100%;
-		width: 20px;
-		height: 20px;
+	.button {
+		width: 100%;
+		height: 50px;
+		line-height: 50px;
+		text-transform: uppercase;
 	}
 	
+}
+
+.footer-bottom-block {
+	background: #000000;
+	width: 100%;	
+	position: relative;
+	z-index: 100;
+	height: 50px;
+}
+
+.copyright {
+	font-size: 12px;
+	color: #fff;
+	font-weight: 100;
+
 }
 
 

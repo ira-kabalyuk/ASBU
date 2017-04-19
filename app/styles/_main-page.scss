@@ -217,6 +217,7 @@ $blue-color: #3c4f90;
     max-height: 200px;
     overflow: hidden;
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
     padding: 0 15px;
 
     a {

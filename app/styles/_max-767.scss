@@ -30,6 +30,22 @@ $blue-color: #3c4f90;
      }
   }
 
+   .contacts-section {
+
+        .column-list {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+
+        li {
+            width: 100%;
+            margin: 10px 0;
+        }
+
+    }
+
+   }  
+
   // END MAIN-PAGE
   
 }

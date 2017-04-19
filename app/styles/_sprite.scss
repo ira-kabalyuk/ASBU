@@ -16,9 +16,33 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 // HTML
 <i class="icon icon-home"></i>
 */
-.icon-Без имени-1 {
+.icon-close {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -23px;
+  width: 22px;
+  height: 24px;
+}
+.icon-fb {
+  background-image: url(../images/sprite.png);
+  background-position: -27px -20px;
+  width: 18px;
+  height: 18px;
+}
+.icon-mail {
+  background-image: url(../images/sprite.png);
+  background-position: -27px 0px;
+  width: 20px;
+  height: 20px;
+}
+.icon-menu {
   background-image: url(../images/sprite.png);
   background-position: 0px 0px;
   width: 27px;
   height: 23px;
+}
+.icon-vk {
+  background-image: url(../images/sprite.png);
+  background-position: -47px 0px;
+  width: 23px;
+  height: 12px;
 }
