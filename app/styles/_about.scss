@@ -1,0 +1,48 @@
+$icon-font-path: '../fonts/';
+
+$border-color: #e2e2e2;
+$purple-color: #603673;
+
+.about-content-block {   
+    margin-bottom: 30px;     
+
+    .bg-block {
+        background: #f0889c;
+        padding: 30px 40px;
+        color: #fff;
+        position: relative;
+
+        &:after {
+            content: "";
+            display: block;
+            background-image: url(../images/list-bg.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            width: 210px;
+            height: 197px;
+            bottom: 30%;
+            right: 10%;
+        }
+
+        .content-title {
+            color: #fff;
+            margin-bottom: 30px;
+        }
+
+        .text {
+            color: #fff;
+            line-height: 2em;
+        }
+    }
+   
+
+    .right-column {
+
+        .content-title {
+             margin-bottom: 12px;
+        }
+       
+    }
+
+}

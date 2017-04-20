@@ -1,10 +1,7 @@
 $icon-font-path: '../fonts/';
 
-$page-color: #393939;
-$gray-color: #858585;
-$border-color: #d8d8d8;
-$black-color: #111111;
-$blue-color: #3c4f90;
+$border-color: #e2e2e2;
+$purple-color: #603673;
 
 @media only screen and (max-width: 1705px) {	
 
@@ -31,15 +28,10 @@ $blue-color: #3c4f90;
     .footer-bottom-block {
 
         &:before {
-		content: "";
-		width: 280px;
-		height: 50px;
-		background: #000;
-		display: block;
-		position: absolute;
-		bottom:0;
-		right: -280px;
-	}
+            content: "";
+            width: 280px;
+            right: -280px;            
+	    }
     }
 
 }

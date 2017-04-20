@@ -1,0 +1,33 @@
+$icon-font-path: '../fonts/';
+
+$border-color: #e2e2e2;
+$purple-color: #603673;
+
+//общие стили для всех страниц
+
+.page {
+
+	 .content-list {
+        margin-left: -20px;
+        margin-bottom: 30px;
+
+        li {
+            font-size: 16px;
+            line-height: 1.5em;            
+            display: flex;
+            padding: 10px 0;
+
+            &:before {
+                content: "-";
+                color: $purple-color;
+                display: inline-block;
+               margin-right: 15px;              
+            }
+        }
+    }
+
+	.content-flex-wrap {
+        margin-top: 45px;
+    }
+       
+}

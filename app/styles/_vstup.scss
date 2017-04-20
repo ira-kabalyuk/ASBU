@@ -1,0 +1,56 @@
+$icon-font-path: '../fonts/';
+
+$border-color: #e2e2e2;
+$purple-color: #603673;
+
+.vstup-block {    
+
+   .page-create-list {
+       display: flex;
+       width: 100%;
+
+       li {            
+            border: 1px solid $border-color;
+            border-right: none;
+            width: 33.3%;
+            text-align: center;
+            padding: 60px 25px;
+
+           /* display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;*/
+            
+            &:last-child {
+                border-right: 1px solid $border-color;
+            }
+       }
+
+       .num-wrap {
+            display: inline-block;
+            background: url(../images/page-list.png) no-repeat;
+            width: 100px;
+            height: 82px;
+        }
+
+        .num {
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            align-items: center;
+            vertical-align: middle;
+            line-height: 82px;
+        }
+       
+   }
+
+   .thin-text {
+    margin-top: 20px;
+   }
+
+   .section-item {
+       display: flex;
+       margin-bottom: 30px;
+   }
+
+}

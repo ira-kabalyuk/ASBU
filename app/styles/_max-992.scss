@@ -1,23 +1,38 @@
 $icon-font-path: '../fonts/';
 
-$page-color: #393939;
-$gray-color: #858585;
-$border-color: #d8d8d8;
-$black-color: #111111;
-$blue-color: #3c4f90;
+$border-color: #e2e2e2;
+$purple-color: #603673;
 
 @media only screen and (max-width: 992px) {
 
-	.column-list {
-		display: flex;
-		flex-direction: column;
-		margin: 0 auto;
+.column-list {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
 
 	li {
 		width: 100%;
 		margin: 10px 0;
 	}
 }
+
+.page {
+
+	.content-flex-wrap {
+		flex-direction: column;
+	}
+}
+
+.left-column {
+	width: 100%;
+	margin-right: 0;
+}
+
+.right-column {
+	width: 100%;
+	margin-top: 20px;
+}
+
 
 	//HEADER
 
@@ -69,7 +84,7 @@ $blue-color: #3c4f90;
 				}
 
 				&.showing {
-					height: calc(100vh - 135px);
+					height: calc(100vh - 124px);
 				}
 
 			}
@@ -78,23 +93,21 @@ $blue-color: #3c4f90;
 		}
 
   	.mobile-menu {
-			cursor: pointer;
-			width: 35px;
-			height: 37px;
-			background: linear-gradient(to right, #7f4597, #c6529a);
-			text-align: center;	
-			line-height: 35px;
-			margin-top: 10px;
-			
-			.icon-menu {
-				vertical-align: middle;
-			}
+		cursor: pointer;
+		width: 35px;
+		height: 37px;
+		background: linear-gradient(to right, #7f4597, #c6529a);
+		text-align: center;	
+		line-height: 35px;
+		margin-top: 10px;
+		
+		.icon-menu {
+			vertical-align: middle;
+		}
 
 		.icon-close {
 			display: none;
 		}	
-
-	
 
 		&.is-open {
 
@@ -179,4 +192,16 @@ $blue-color: #3c4f90;
 	}
 
   //END MODAL
+
+  //ABOUT
+
+  .about-content-block {
+
+	.content-list {
+		margin-left: 0;
+	}
+
+  }
+
+  //END-ABOUT
 }

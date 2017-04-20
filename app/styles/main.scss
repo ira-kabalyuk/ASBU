@@ -12,13 +12,17 @@ $icon-font-path: '../fonts/';
 @import "_slick";
 @import "_slick-theme";
 @import "_nice-select";
+@import "_font-awesome";
 
 @import "_header";
 @import "_footer";
 @import "_modals";
 
-
+@import "_page";
 @import "_main-page";
+@import "_about";
+@import "_vstup";
+
 
 @import "_max-1705.scss";
 @import "_max-1200.scss";
