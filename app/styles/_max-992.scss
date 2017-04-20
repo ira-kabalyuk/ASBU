@@ -140,9 +140,13 @@ $blue-color: #3c4f90;
 
   .main-col-section {
 	  padding: 20px 0;
-  }
+  }  
 
-  .contacts-section {
+  // END MAIN-PAGE
+
+  //footer
+
+  .footer {
 
 	  .column-list {
 		display: flex;
@@ -155,11 +159,24 @@ $blue-color: #3c4f90;
 		}
 	}
 
+	.footer-column-list {
+	  margin: 0 -28px;
+  	}
+
   }
 
   .contact-link {
 	  font-size: 16px;
-  }
+  }  
 
-  // END MAIN-PAGE
+  //end footer
+
+  //MODAL
+
+  .modal-dialog {
+		width: 80%;
+		margin: 88px auto 30px auto;
+	}
+
+  //END MODAL
 }

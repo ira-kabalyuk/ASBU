@@ -2,7 +2,7 @@ $icon-font-path: '../fonts/';
 
 $page-color: #393939;
 $gray-color: #858585;
-$border-color: #d8d8d8;
+$border-color: #e2e2e2;
 $black-color: #111111;
 $blue-color: #3c4f90;
 
@@ -49,11 +49,13 @@ $blue-color: #3c4f90;
 
 
 .footer {	
-	width: 100%;	
+	//width: 100%;
+	width: calc(100% - 480px);	
 	margin-top: -195px;
 	position: relative;
 	z-index: 100;
-
+	background: #fff;
+	
 	.footer-column-list {
 		justify-content: space-between;	
 		align-items: center;
@@ -75,6 +77,18 @@ $blue-color: #3c4f90;
 	position: relative;
 	z-index: 100;
 	height: 50px;
+	position: relative;
+
+	&:before {
+		content: "";
+		width: 480px;
+		height: 50px;
+		background: #000;
+		display: block;
+		position: absolute;
+		bottom:0;
+		right: -480px;
+	}
 }
 
 .copyright {

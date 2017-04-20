@@ -38,5 +38,48 @@ $blue-color: #3c4f90;
 
   // END MAIN-PAGE
 
+  //footer
+
+   .footer {
+
+     .footer-column-list {
+         flex-direction: column;
+
+       li {
+           width: 100%;
+       }
+   } 
+
+   
+}
+
+.copyright {
+    height: 45px;
+    line-height: 45px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+  //end footer
+
+  //MODAL
+
+  .modal-dialog {		
+
+        .close {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background: #8822cb;
+            opacity: 1;
+
+            position: absolute;
+            top: -22px;
+            right: -22px;
+        }
+	}
+
+  //END MODAL
+
 }
 

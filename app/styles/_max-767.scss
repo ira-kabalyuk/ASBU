@@ -28,7 +28,11 @@ $blue-color: #3c4f90;
      .description {
          padding: 20px 0;
      }
-  }
+  }  
+
+  // END MAIN-PAGE
+
+  //footer
 
    .contacts-section {
 
@@ -44,8 +48,22 @@ $blue-color: #3c4f90;
 
     }
 
-   }  
+   } 
 
-  // END MAIN-PAGE
-  
+   .footer {
+
+     .footer-column-list {
+
+       li {
+           width: calc(50% - 28px);
+       }
+   } 
+
+   .button {
+       font-size: 14px;
+   }
+    
+}
+
+   
 }

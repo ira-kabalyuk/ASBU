@@ -15,11 +15,28 @@ $blue-color: #3c4f90;
 
 	.pagewrap {
 		width: 100%;
+        //margin-right: 0;
 	}
 
     .navigation {    
         padding: 0 20px;
     }
+
+    //footer
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer-bottom-block {
+
+        &:before {
+            content: "";
+            width: 0;            
+	    }
+    }
+
+    //end-footer
 
 
 }

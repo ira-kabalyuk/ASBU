@@ -8,7 +8,7 @@ $blue-color: #3c4f90;
 
 html {
 	height: 100%;
-	overflow-x: hidden; 
+	//overflow-x: hidden; 
 }
 
 body {
@@ -18,7 +18,11 @@ body {
 	background: #fff;	
 	min-width: 320px;
 	height: 100%;	
-	overflow-x: hidden;
+	overflow-x: hidden;	
+}
+
+.modal-open {
+
 }
 
 .hidden {
@@ -32,7 +36,8 @@ opacity:1;
 .main {
 	min-height: 100%;
 	position: relative;
-	padding-bottom: 195px;	
+	padding-bottom: 195px;
+		
 
 	&:before {
 		content: "";
@@ -42,15 +47,22 @@ opacity:1;
 		position: absolute;
 		top: 0;
 		left: 0;
+		z-index: 10;
 	}
 
 }
 
+
 .slide-wrap {
+	position: fixed;
 	width: 480px;	
 	min-height: 100%;	
-	float: right;
-	position: relative;
+	
+	//position: relative;
+
+	top: 0;
+    left: auto;
+    right: 0;
 
 	&:after {
 		content: "";
@@ -74,8 +86,10 @@ opacity:1;
 
 .pagewrap {
 	width: calc(100% - 480px);
-	float: left;
-	
+	//float: left;
+	background: #fff;
+	//margin-right: 480px;	
+	min-height: 100%;
 }
 
 .content {
@@ -156,7 +170,7 @@ opacity:1;
 	margin: 0 -28px;
 
 	li {
-		width: calc(33.3% - 28px);
+		width: calc(33.3% - 56px);
 		margin: 0 28px;
 	}
 }
