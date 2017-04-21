@@ -234,18 +234,28 @@ $(".mobile-menu").click(function( e ) {
         $("nav ul").slideToggle(400);        
     }); 
 
+    $(".blog-menu").click(function( e ) {
+        e.stopPropagation();        
+        $(".blog-categories-list").slideToggle(400);        
+    }); 
+
 
    /*$('.mobile-menu').click( function() {
      
    $('nav ul').toggleClass("showing");
     $(".nav ul").slideToggle(400);
     $('body').toggleClass('menu-open');
-  });
+  });*/
 
    $(".mobile-menu").click(function( e ) {
         e.stopPropagation();
         $(".mobile-menu").toggleClass("is-open");
-    }); */
+    }); 
+
+    $(".blog-menu").click(function( e ) {
+        e.stopPropagation();
+        $(".blog-menu").toggleClass("is-open");
+    }); 
 
   //nav end
 
@@ -256,6 +266,8 @@ $(".mobile-menu").click(function( e ) {
         $(this).addClass("block-active");
        
     });  
+
+    
 
   //end checkbox block 
 

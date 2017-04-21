@@ -3,9 +3,7 @@ $icon-font-path: '../fonts/';
 $border-color: #e2e2e2;
 
 .modal-open {
-    //padding-right: 0!important;
-
-    .main { margin-right: 17px}
+    //padding-right: 0!important;    
 }
 
 .modal {
@@ -46,6 +44,7 @@ $border-color: #e2e2e2;
 .modal-title {
     font-size: 30px;
     text-align: center;
+    font-weight: 700;
 }
 
 .modal-form {
@@ -97,4 +96,28 @@ $border-color: #e2e2e2;
     resize: none;
     height: 120px;
     overflow-y: auto;
+}
+
+//vstup
+
+.modal-dialog-min {
+
+    .icon-smile {
+        margin-top: 75px;
+    }
+
+    .big-text {
+        text-align: center;
+        padding: 50px 0 200px 0;
+    }
+
+    .modal-body {
+        text-align: center;
+        padding: 70px 100px;
+    }
+
+    .button {
+        height: 70px;
+        line-height: 70px;
+    }
 }

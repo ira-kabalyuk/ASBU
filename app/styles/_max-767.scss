@@ -78,5 +78,25 @@ $purple-color: #603673;
 
     //END VSTUP
 
+    //MODAL
+
+    .modal-dialog-min {    
+
+        .modal-body {
+            text-align: center;
+            padding: 15px;
+        } 
+
+        .big-text {
+            padding: 50px 0;
+        } 
+
+        .icon-smile {
+        margin-top: 30px;
+        }  
+    }
+
+    //END-MODAL
+
    
 }

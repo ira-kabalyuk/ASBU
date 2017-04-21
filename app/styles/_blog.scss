@@ -1,0 +1,116 @@
+$icon-font-path: '../fonts/';
+
+$border-color: #e2e2e2;
+$purple-color: #603673;
+
+.blog-block {
+
+    .blog-categories {
+        position: relative;
+        border-top: 1px solid $border-color;
+        border-bottom: 1px solid $border-color;
+        position: relative;
+
+        ul {            
+            //justify-content: space-between;
+            padding: 20px 0;
+
+            li {
+                width: calc(20% - 10px);
+                padding: 0 5px;
+                display: inline-block;
+
+                a {
+                    color: #000;
+                    font-weight: 700;
+                    text-decoration: none;
+                    display: block;
+                    font-size: 14px;
+                    line-height: 25px;
+
+                    &:hover,
+                    &:active {
+                      color: #7d4597;
+                      text-decoration: underline;  
+                    }
+                }
+            }
+        }
+
+        .blog-categories-list {
+         display: none;
+         position: relative;
+
+            li {
+                display: inline-block;
+            }
+
+           /* &:before {
+                content:"";
+                display: block;
+               width: 35px;
+               height: 100%; 
+               background: linear-gradient(to right, #7f4597, #c6529a);
+
+               position: absolute;
+               top: 0;
+               right: 0;
+            }*/
+        }
+    }
+
+    .blog-menu {
+		cursor: pointer;
+		width: 85px;
+		height: 65px;
+		background: linear-gradient(to right, #7f4597, #c6529a);
+		text-align: center;	
+		line-height: 65px;
+		//margin-top: 10px;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+       /* &:after {
+                content:"";                
+               width: 85px;
+               height: 0; 
+               background: linear-gradient(to right, #7f4597, #c6529a);
+
+               position: absolute;
+               top: 65px;
+               right: 0;
+                transition: height .4s;
+               
+            }        */
+		
+		.icon-menu {
+			vertical-align: middle;
+		}
+
+		.icon-close {
+			display: none;
+		}	
+
+		&.is-open {
+
+			.icon-menu {
+				display: none;
+			}
+
+			.icon-close {
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+            &:after {
+                height: 100%;                
+            }		
+
+		}
+
+	  }
+
+      	
+
+}

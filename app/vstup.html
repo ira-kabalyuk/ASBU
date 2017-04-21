@@ -170,7 +170,7 @@
                               <label for="" class="content-label">E-mail предприятия <sub>*</sub></label>
                               <input type="text" class="content-input" placeholder="info@example.com">
                             </div>
-                            <a href="" class="button">Отправить</a>
+                            <a href="" class="button" data-toggle="modal" data-target="#app">Отправить</a>
                           </form>
                         </div>
                       </section>
@@ -245,8 +245,28 @@
             <textarea type="text" class="modal-input modal-text" placeholder="Опишіть свою проблему"></textarea>  
           </div>
           <a href="" type="button" class="button">Отправить</a>
-        </form>
-      
+        </form>      
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Modal vstup -->
+<div class="modal fade" id="app" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-min">    
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon icon-close"></i></button>
+      <div class="modal-header">
+        
+        <h4 class="modal-title" id="myModalLabel">Заявка відправлена</h4>
+      </div>
+      <div class="modal-body">
+          <i class="icon icon-smile"></i>
+        <p class="big-text">Дякуємо за звернення.<br>Найбдижчим часом ми відправимо відповідь</p>
+        <a href="" type="button" class="button">Оk</a>
+              
+      </div>
     </div>
   </div>
 </div>

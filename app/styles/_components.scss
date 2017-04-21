@@ -17,10 +17,14 @@ body {
 	min-width: 320px;
 	height: 100%;	
 	overflow-x: hidden;	
+	//padding-right: 0 !important;
 }
 
 .modal-open {
 
+	.modal {
+  		padding-right: 0 !important;
+	}
 }
 
 .hidden {
@@ -278,3 +282,9 @@ opacity:1;
 	font-size: 14px;
 	padding: 35px 0;
 }
+
+.big-text {
+	font-size: 24px;
+	line-height: 1.5em;
+}
+
