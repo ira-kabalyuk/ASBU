@@ -1,0 +1,39 @@
+$icon-font-path: '../fonts/';
+
+$border-color: #e2e2e2;
+$purple-color: #603673;
+
+@media only screen and (max-width: 1366px) {	
+
+   .navigation {
+       padding: 0 5px;
+   }
+
+   //VSTUP
+
+   .vstup-block {
+
+        .page-create-list {
+            flex-direction: column;
+
+            li {
+                text-align: left;
+                border-right: 1px solid $border-color;
+                border-bottom: none;
+                padding: 30px 25px;
+
+                &:last-child {
+                    border-bottom: 1px solid $border-color;
+                }
+            }
+        }
+
+        .num-wrap {
+            float: left;
+            margin-right: 15px;
+        }
+   }
+
+   //VSTUP
+
+}

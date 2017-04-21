@@ -2,6 +2,12 @@ $icon-font-path: '../fonts/';
 
 $border-color: #e2e2e2;
 
+.modal-open {
+    //padding-right: 0!important;
+
+    .main { margin-right: 17px}
+}
+
 .modal {
 
 }

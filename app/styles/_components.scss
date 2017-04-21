@@ -238,12 +238,12 @@ opacity:1;
 }
 
 .left-column {
-	width: 400px;
+	width: 300px;
 	margin-right: 90px;
 }
 
 .right-column {
-	width: calc(100% - 400px - 90px);
+	width: calc(100% - 300px - 90px);
 }
 
 .content-title {
@@ -271,3 +271,10 @@ opacity:1;
    font-family: 'Lato', sans-serif;
    line-height: 2em;        
 } 
+
+.description-text {
+	 font-family: 'Lato', sans-serif;
+   line-height: 2em;        
+	font-size: 14px;
+	padding: 35px 0;
+}

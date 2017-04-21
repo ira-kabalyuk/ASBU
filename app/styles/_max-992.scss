@@ -59,19 +59,21 @@ $purple-color: #603673;
 			width: auto;
 
 			ul {
-				height: 0;
+				//height: 0;
 				overflow: hidden;
 				position: absolute;
 				left: 0;			
-				transition: height .4s;
+				//transition: height .4s;
 				padding: 0 15px;
 				overflow-y: auto;
 				-webkit-overflow-scrolling: touch;
 				z-index: 1000;
 				background: #fff;
 				top: 125px;
-
+				height: auto;
+				padding-bottom: 20px;
 				flex-direction: column;
+				display: none;
 
 				li {
 					width: 100%;
@@ -83,9 +85,10 @@ $purple-color: #603673;
 
 				}
 
-				&.showing {
-					height: calc(100vh - 124px);
-				}
+				/*&.showing {
+					height: auto;
+					padding-bottom: 20px;
+				}*/
 
 			}
 
@@ -197,6 +200,16 @@ $purple-color: #603673;
 
   .about-content-block {
 
+	  .left-column {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.right-column {
+		width: 100%;
+		margin-top: 20px;
+	}
+
 	.content-list {
 		margin-left: 0;
 	}
@@ -204,4 +217,16 @@ $purple-color: #603673;
   }
 
   //END-ABOUT
+
+   //VSTUP
+
+   .vstup-block {
+
+       .section-item {
+           flex-direction: column;
+       }
+        
+   }
+
+   //VSTUP
 }

@@ -4,7 +4,16 @@ $border-color: #e2e2e2;
 $purple-color: #603673;
 
 .about-content-block {   
-    margin-bottom: 30px;     
+    margin-bottom: 30px;
+
+    .left-column {
+	width: 400px;
+	margin-right: 90px;
+    }
+
+    .right-column {
+        width: calc(100% - 400px - 90px);
+    }     
 
     .bg-block {
         background: #f0889c;

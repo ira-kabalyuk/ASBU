@@ -229,17 +229,35 @@ jQuery(document).ready(function() {
 
     //nav
 
-   $('.mobile-menu').click( function() {
-    $('nav ul').toggleClass("showing");
+$(".mobile-menu").click(function( e ) {
+        e.stopPropagation();        
+        $("nav ul").slideToggle(400);        
+    }); 
+
+
+   /*$('.mobile-menu').click( function() {
+     
+   $('nav ul').toggleClass("showing");
+    $(".nav ul").slideToggle(400);
     $('body').toggleClass('menu-open');
   });
 
    $(".mobile-menu").click(function( e ) {
         e.stopPropagation();
         $(".mobile-menu").toggleClass("is-open");
-    }); 
+    }); */
 
-  //nav end 
+  //nav end
+
+  //checkbox block
+
+   $(".checkbox-block").click(function( e ) {        
+       $(".checkbox-block").removeClass("block-active")
+        $(this).addClass("block-active");
+       
+    });  
+
+  //end checkbox block 
 
   //cart
 
@@ -353,6 +371,7 @@ jQuery(document).ready(function() {
   //right-column
 
    $('.filter-mobile-menu').click( function() {
+      
     $('.filter-list').toggleClass("is-show");
 
   });
