@@ -9,6 +9,23 @@ $purple-color: #603673;
         font-size: 25px;
     }
 
+    .page {
+
+        .paging-list {
+
+           li {
+
+                &:first-child {
+                    display: none;
+                }
+
+                &:last-child {
+                    display: none;
+                }
+           }
+       }
+    }
+
 //MAIN-PAGE
 
   .main-section {

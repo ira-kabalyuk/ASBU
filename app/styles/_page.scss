@@ -144,11 +144,36 @@ $purple-color: #603673;
         }
     }
 
-    .blog-left-column{
+    .blog-wrap {
+         width: 50%;
+         padding: 0 47px;
+         margin: 40px 0;
+     }
 
-    } 
+     .paging-list {
+         list-style: none;
+         display: flex;
+         justify-content: center;
 
-    .blog-right-column {
+         li {   
+                      
 
-    }    
+             a {
+                 padding: 0 26px;
+                 font-size: 24px;
+                 color: #000;
+                 cursor: pointer;
+
+                 &:hover,
+                 &:active {
+                    color: $purple-color;
+                    text-decoration: none;  
+                 }
+
+                 &.page-active {
+                    color: $purple-color; 
+                }
+             }             
+         }
+     }
 }

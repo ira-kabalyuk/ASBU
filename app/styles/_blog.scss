@@ -1,7 +1,7 @@
 $icon-font-path: '../fonts/';
 
 $border-color: #e2e2e2;
-$purple-color: #603673;
+$purple-color: #7d4597;
 
 .blog-block {
 
@@ -111,6 +111,29 @@ $purple-color: #603673;
 
 	  }
 
-      	
+     .content-flex-wrap {
+         margin: 0 -47px;
+         flex-wrap: wrap;
+         margin-top: 40px;
+     }     
+
+     .content-title {
+        color: #000;
+
+        &:hover,
+        &:active {
+            color: $purple-color;
+            text-decoration: underline;
+        }
+     }
+
+     .middle-text {
+         max-height: 195px;
+         overflow: hidden;
+     } 
+
+     .paging-list {
+           margin-bottom: 40px;
+       } 	
 
 }

@@ -21,6 +21,12 @@ $purple-color: #603673;
 	.content-flex-wrap {
 		flex-direction: column;
 	}
+
+	.blog-wrap {
+		width: 100%;
+		padding: 0 47px;
+		margin: 40px 0;
+	}
 }
 
 .left-column {
@@ -32,6 +38,8 @@ $purple-color: #603673;
 	width: 100%;
 	margin-top: 20px;
 }
+
+
 
 
 	//HEADER

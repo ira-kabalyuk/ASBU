@@ -10,6 +10,24 @@ $purple-color: #603673;
           font-size: 30px;
 	  }
 
+      .page {
+
+          .blog-wrap {
+              margin: 10px 0;
+          }
+
+          .paging-list {
+
+              li {
+
+                  a {
+                    font-size: 16px;
+                    padding: 0 15px;
+                  }
+              }
+          }
+      }
+
     //HEADER
 
     .button-wrap {
@@ -98,5 +116,14 @@ $purple-color: #603673;
 
     //END-MODAL
 
-   
+   //BLOG
+
+   .blog-block {
+       
+       .paging-list {
+           margin-bottom: 30px;
+       }
+   } 
+
+   //BLOG END
 }

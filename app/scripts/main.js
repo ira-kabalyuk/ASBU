@@ -400,8 +400,8 @@ $(".mobile-menu").click(function( e ) {
 
     //paging
 
-     $(".paging li").click(function( e ) {        
-       $(".paging li").removeClass("page-active")
+     $(".paging-list a").click(function( e ) {        
+       $(".paging-list a").removeClass("page-active")
         $(this).addClass("page-active");
        
     });  
