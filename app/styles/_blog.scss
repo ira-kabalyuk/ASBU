@@ -44,19 +44,7 @@ $purple-color: #7d4597;
 
             li {
                 display: inline-block;
-            }
-
-           /* &:before {
-                content:"";
-                display: block;
-               width: 35px;
-               height: 100%; 
-               background: linear-gradient(to right, #7f4597, #c6529a);
-
-               position: absolute;
-               top: 0;
-               right: 0;
-            }*/
+            }           
         }
     }
 
@@ -74,20 +62,7 @@ $purple-color: #7d4597;
 
         .icon {
             margin-top: 22px;
-        }
-
-       /* &:after {
-                content:"";                
-               width: 85px;
-               height: 0; 
-               background: linear-gradient(to right, #7f4597, #c6529a);
-
-               position: absolute;
-               top: 65px;
-               right: 0;
-                transition: height .4s;
-               
-            }        */
+        }       
 		
 		.icon-menu {
 			vertical-align: middle;
