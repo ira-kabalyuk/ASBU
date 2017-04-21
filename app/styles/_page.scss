@@ -154,6 +154,9 @@ $purple-color: #603673;
          list-style: none;
          display: flex;
          justify-content: center;
+         height: 129px;
+         background: #f6f6f6;
+         align-items: center;
 
          li {   
                       
@@ -163,6 +166,7 @@ $purple-color: #603673;
                  font-size: 24px;
                  color: #000;
                  cursor: pointer;
+                 font-weight: bold;
 
                  &:hover,
                  &:active {
@@ -173,7 +177,21 @@ $purple-color: #603673;
                  &.page-active {
                     color: $purple-color; 
                 }
-             }             
+             }
+
+             &:first-child {
+
+                  a {
+                      font-weight: 100;
+                  }
+             } 
+
+              &:last-child {
+
+                  a {
+                      font-weight: 100;
+                  }
+             }                
          }
      }
 }

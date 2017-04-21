@@ -14,6 +14,7 @@ $purple-color: #7d4597;
         ul {            
             //justify-content: space-between;
             padding: 20px 0;
+            margin-right: 100px;
 
             li {
                 width: calc(20% - 10px);
@@ -62,14 +63,18 @@ $purple-color: #7d4597;
     .blog-menu {
 		cursor: pointer;
 		width: 85px;
-		height: 65px;
+		height: 100%;
 		background: linear-gradient(to right, #7f4597, #c6529a);
 		text-align: center;	
-		line-height: 65px;
-		//margin-top: 10px;
+		line-height: 100%;
+		
         position: absolute;
         top: 0;
         right: 0;
+
+        .icon {
+            margin-top: 22px;
+        }
 
        /* &:after {
                 content:"";                
