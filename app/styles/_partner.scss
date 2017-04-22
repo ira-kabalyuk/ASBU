@@ -1,0 +1,62 @@
+$icon-font-path: '../fonts/';
+
+$border-color: #e2e2e2;
+$purple-color: #603673;
+
+.partner-block {
+
+    .bg-block {
+        background: #c8529a;
+        padding: 60px 40px;
+        color: #fff;
+        position: relative;
+        min-height: 275px;
+        overflow: hidden;
+
+        &:after {
+            content: "";           
+            transform: rotate(15deg);
+            display: block;
+            background-image: url(../images/list-bg.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            width: 163px;
+            height: 153px;
+            bottom: 5%;
+            right: 10%;
+        }
+    }
+
+    .list-description {
+        font-family: 'Lato', sans-serif;
+        line-height: 2em;
+        font-size: 16px;
+        font-weight: 400;       
+        padding: 0 15px;
+
+        a {            
+             
+
+            &:hover {           
+                position: relative;
+            
+                &:before {
+                    content: "";
+                   background: rgba(190, 70, 143, 0.7);            
+                    position: absolute;
+                    display: inline-block;
+                    top: 0;                
+                    left: -11px;               
+                    width: 100%;
+                    height: 100%;
+                    z-index: -1;
+                    box-sizing: content-box;
+                    color: #fff;
+                    border-left: 10px solid rgba(190, 70, 143, 0.5);
+                    border-right: 10px solid rgba(190, 70, 143, 0.5);
+                }                   
+            }
+        } 
+    }
+}
