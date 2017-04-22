@@ -3,196 +3,27 @@ console.log('\'Allo \'Allo!');
  
 jQuery(document).ready(function() {
 
-   $('.head-slider').slick({
-      infinite: true,
-      arrows: false,
-      dots: true,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      accessibility: false,
-    });
+  //slider
 
-   if ($('html').width() < 767) {
+ $('.popup-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+			}
+		}
+	});
 
-    $('.responsive-slider').slick({
-      infinite: true,
-      arrows: true,
-      dots: true,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      accessibility: false,
-    });
-
-   }
-
-   $('.slider-content').slick({
-      infinite: true,
-      arrows: false,
-      dots: true,
-      slidesToShow: 2,
-      slidesToScroll: 2,
-      accessibility: false,
-
-        responsive: [
-            {
-              breakpoint: 993,
-              settings: {
-                arrows: false,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: true,               
-              }
-            },
-
-            {
-              breakpoint: 767,
-              settings: {
-                arrows: true,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: true,               
-              }
-            },
-        ]    
-    });
-
-   $('.product-slider-for').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: false,
-      fade: true,
-      asNavFor: '.product-slider-nav'
-       });
-
-      $('.product-slider-nav').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        asNavFor: '.product-slider-for',
-        dots: false,
-        centerMode: true,
-        focusOnSelect: true
-      });
-
-
-   $('.slider-product-content').slick({
-      infinite: true,
-      arrows: false,      
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      accessibility: false,
-
-        responsive: [
-            {
-              breakpoint: 992,
-              settings: { 
-                dots: true,
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                arrows: false,                                   
-              }
-            },
-
-            {
-              breakpoint: 540,
-              settings: {                             
-                slidesToShow: 1,
-                slidesToScroll: 1,  
-                 dots: true,                           
-              }
-            }
-        ]    
-    });
-
-
-   $('.prev-button').click(function(){
-    $('.slider-product-content').slick('slickPrev');
-  });
-
-   $('.next-button').click(function(){
-    $('.slider-product-content').slick('slickNext');
-  });
-
-
-   $('.slider-product-content-1').slick({
-      infinite: true,
-      arrows: false,      
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      accessibility: false,
-
-        responsive: [
-            {
-              breakpoint: 992,
-              settings: { 
-                dots: true,
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                arrows: false,                                   
-              }
-            },
-
-            {
-              breakpoint: 540,
-              settings: {                             
-                slidesToShow: 1,
-                slidesToScroll: 1,  
-                 dots: true,                           
-              }
-            }
-        ]    
-    });
-
-   $('.prev-button-bot').click(function(){
-    $('.slider-product-content-1').slick('slickPrev');
-  });
-
-   $('.next-button-bot').click(function(){
-    $('.slider-product-content-1').slick('slickNext');
-  });
-
-   //footer tab
-
-    // tabbed content
-    // http://www.entheosweb.com/tutorials/css/tabs.asp
-    $(".footer .tab_content").hide();
-    $(".footer .tab_content:first").show();
-
-  /* if in tab mode */
-    $(".footer ul.tabs li").click(function() {
-    
-      $(".footer .tab_content").hide();
-      var activeTab = $(this).attr("rel"); 
-      $("#"+activeTab).fadeIn();    
-    
-      $(".footer ul.tabs li").removeClass("active");
-      $(this).addClass("active");
-
-    $(".footer .tab_drawer_heading").removeClass("d_active");
-    $(".footer .tab_drawer_heading[rel^='"+activeTab+"']").addClass("d_active");
-    
-    });
-  /* if in drawer mode */
-  $(".footer .tab_drawer_heading").click(function() {
-      
-      $(".footer .tab_content").hide();
-      var d_activeTab = $(this).attr("rel"); 
-      $("#"+d_activeTab).fadeIn();
-    
-    $(".footer .tab_drawer_heading").removeClass("d_active");
-      $(this).addClass("d_active");
-    
-    $(".footer ul.tabs li").removeClass("active");
-    $(".footer ul.tabs li[rel^='"+d_activeTab+"']").addClass("active");
-    });
-  
-  
-  /* Extra class "tab_last" 
-     to add border to right side
-     of last tab */
-  $('.footer ul.tabs li').last().addClass("tab_last");
-  
-
-   //end footer tab
+//end slider
 
     if ($('html').width() > 1025) {
 

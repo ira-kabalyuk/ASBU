@@ -10,6 +10,11 @@ $purple-color: #603673;
           font-size: 30px;
 	  }
 
+      .middle-title {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
       .page {
 
           .blog-wrap {
@@ -133,4 +138,38 @@ $purple-color: #603673;
    } 
 
    //BLOG END
+
+   //ARTICLE
+
+   .article-block {
+
+       .page-title {
+           margin: 25px 0 15px 0;
+       }
+
+       .create-list,
+       .article-list {
+           margin: 20px 0;
+
+           li {
+
+               &:before {
+                    margin-right: 20px;
+               }
+           }
+       }
+
+       .img-wrap {
+           margin: 20px 0;
+       }
+
+       .create-block {
+
+           .big-text {
+               padding: 50px 20px 50px 20px;
+           }
+       }
+   }
+
+   //ARTICLE
 }

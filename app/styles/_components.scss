@@ -341,5 +341,38 @@ opacity:1;
 	}
 }
 
+.content-button {
+	display: inline-block;
+	border: 1px solid $purple-color;
+	background: #fff;
+	font-size: 14px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	width: 210px;
+	height: 33px;
+	line-height: 33px;
+	vertical-align: middle;
+	color: #000;
+	text-decoration: none;
+	transition: background 0.5s ease;
+
+	&:hover {
+		text-decoration: none;
+		color: #fff;
+		background: $purple-color;
+	}
+
+	i {
+		margin-right: 10px;
+	}
+
+}
+
+.middle-title {
+	font-size: 48px;
+	font-weight: 700;
+}
+
 
 
