@@ -88,6 +88,15 @@ $purple-color: #603673;
         font-weight: 700;
     }
 
+    .section-item {
+       display: flex;
+       margin-bottom: 100px;
+
+       &:last-child {
+           margin-bottom: 0;
+       }
+   }
+
     //checkbox
 
     .checkbox {

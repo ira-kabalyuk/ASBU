@@ -29,6 +29,10 @@ $purple-color: #603673;
 	}
 }
 
+.section-item {
+	flex-direction: column;
+}
+
 .left-column {
 	width: 100%;
 	margin-right: 0;
@@ -233,11 +237,7 @@ $purple-color: #603673;
 
    //VSTUP
 
-   .vstup-block {
-
-       .section-item {
-           flex-direction: column;
-       }
+   .vstup-block {      
         
    }
 

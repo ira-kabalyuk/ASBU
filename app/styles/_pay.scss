@@ -1,0 +1,42 @@
+$icon-font-path: '../fonts/';
+
+$border-color: #e2e2e2;
+$purple-color: #603673;
+
+.pay-block {
+
+    .pay-list {
+
+        li {
+            display: flex;
+            margin-bottom: 50px;
+        }
+    }
+
+    .content-title {
+        margin-bottom: 10px;
+    }
+
+    .pay-item {
+        //display: flex;
+        overflow: hidden;
+        border-bottom: 1px solid $purple-color;
+        padding: 0 0 30px 0;
+    }
+
+    .img-wrap {        
+        max-width: 297px;
+        float: right;
+        margin-left: 50px;
+
+    }
+
+    .number {
+        color: $purple-color;
+        font-size: 48px;
+        display: inline-block;
+        font-weight: 700;
+        margin-right: 50px;
+    }
+
+}

@@ -117,11 +117,58 @@ $purple-color: #603673;
            }
        }
 
+       .page-create-list {
+           justify-content: center;
+
+           li {
+               text-align: center;
+           }
+
+           .num-wrap {
+               margin-right: 0;
+               margin-bottom: 15px;
+               float: none;
+           }
+
+           .content-title {
+               float: none;
+               width: 100%;
+           }
+
+           .thin-text {
+                float: none;
+                width: 100%;
+           }
+       }
+
     }
 
     //END VSTUP
 
+    //PAY
 
+    .pay-block {
+
+         .pay-list {
+
+             li {
+                flex-direction: column;
+             }             
+
+        }
+
+        .img-wrap {
+            margin-left:0;
+            max-width: 100%;
+            margin: 15px 0;
+            float: none;
+        }
+
+    }
+
+    
+
+    //PAY END
 
 }
 

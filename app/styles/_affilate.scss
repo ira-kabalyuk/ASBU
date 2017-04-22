@@ -1,0 +1,52 @@
+$icon-font-path: '../fonts/';
+
+$border-color: #e2e2e2;
+$purple-color: #603673;
+
+.affilate-block {
+
+    .right-column {
+        text-align: center;
+    }
+
+    .content-label {
+        max-width: 540px;
+        text-align: left;
+        margin: 0 auto 7px auto;
+    }
+
+    .page-create-list {
+        flex-direction: column;
+
+        li {
+            text-align: left;
+            border-right: 1px solid #e2e2e2;
+            border-bottom: none;
+            padding: 30px 25px;
+
+            &:last-child {
+                 border-bottom: 1px solid #e2e2e2;
+            }
+        }
+
+        .num-wrap {
+            float: left;
+            margin-right: 45px;
+        }
+
+        .content-title {
+             width: calc(100% - 100px - 45px);
+            float: right;
+        }
+
+        .thin-text {
+            width: calc(100% - 100px - 45px);
+            float: right;            
+        }
+    }
+
+    .description-text {
+        text-align: center;       
+    }
+
+}
