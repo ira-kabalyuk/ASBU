@@ -110,10 +110,15 @@ $purple-color: #7d4597;
      .middle-text {
          max-height: 195px;
          overflow: hidden;
+         margin: 10px 0;
      } 
 
      .paging-list {
            margin-bottom: 40px;
-       } 	
+       } 
+
+       .img-wrap {
+           margin: 10px 0;
+       }	
 
 }

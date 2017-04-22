@@ -5,6 +5,10 @@ $purple-color: #603673;
 
 @media only screen and (max-width: 1025px) {	
 
+    html {
+        overflow-x: hidden;
+    }
+
     .slide-wrap {
         display: none;
     

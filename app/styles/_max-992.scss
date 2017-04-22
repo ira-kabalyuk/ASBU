@@ -174,18 +174,23 @@ $purple-color: #603673;
 
 	  .column-list {
 		display: flex;
-		margin: 30px -28px;
-		flex-direction: row;
-
-		li {
-			width: calc(33.3% - 28px);
-			margin: 0 28px;
-		}
+		margin: 0 -28px;
+		flex-direction: row;		
 	}
 
 	.footer-column-list {
 	  margin: 0 -28px;
+
+	  li {
+		  width: calc(50% - 56px);
+    	margin: 0 28px;
+	  }
+
   	}
+
+	  .social {
+		  width: 100%;
+	  }
 
   }
 

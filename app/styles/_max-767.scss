@@ -58,7 +58,14 @@ $purple-color: #603673;
 
         li {
             width: 100%;
-            margin: 10px 0;
+            margin: 0;
+            border-right: none;
+            border-bottom: 1px solid $border-color;
+            padding: 20px 0 20px 0;
+
+            &:last-child {
+                border-bottom: none;
+            }
         }
 
     }
