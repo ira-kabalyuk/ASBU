@@ -176,4 +176,32 @@ $purple-color: #603673;
    }
 
    //ARTICLE
+
+   //PARTNER
+
+   .partner-block {
+
+       .page-create-list {
+           flex-direction: column;
+          
+
+           li {
+               width: 100%;
+               border-right: 1px solid $border-color;
+               border-bottom: none;
+               padding: 25px;               
+
+               &:last-child {
+                   border-bottom: 1px solid $border-color;
+               }
+           }
+
+           .content-title {
+               padding: 14px 0;
+           }
+          
+       }
+   }
+
+   //END PARTNER
 }

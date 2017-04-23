@@ -10,6 +10,10 @@ $purple-color: #603673;
         border-bottom: 1px solid $border-color;
         padding: 25px 0;
 
+        .content {
+            width: 100%;
+        }
+
         .info-block {
         display: inline-block;
            width: 33.3%;
