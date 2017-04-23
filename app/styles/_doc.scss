@@ -3,7 +3,70 @@ $icon-font-path: '../fonts/';
 $border-color: #e2e2e2;
 $purple-color: #603673;
 
-.doc {
+.doc-block {
+
+    .spacing-title {
+        padding-bottom: 5px;
+    }
+
+    .bg-block {
+        background: #7d4597;
+    }
+
+    .thin-text {
+        padding: 5px 0;
+    }
+
+    .doc-list {        
+
+        li {
+            border-bottom: 1px dashed $border-color;
+            padding: 40px 0 10px 0;
+
+            &:first-child {
+                padding-top: 0;
+            }
+        }
+    }
+
+    .donwload-list {
+        padding: 5px 0;
+
+        li {
+            display: inline-block;
+            border-bottom: none;
+            padding: 0 20px;
+            border-right: 2px solid $border-color;
+
+            &:first-child {
+                padding-left: 0; 
+            }
+
+             &:last-child {
+                padding-right: 0; 
+                border-right:none;
+            }
+        }
+    }
+
+        .donwload-link {
+            display: inline-block;
+            font-size: 10px;
+            color: #000;
+
+            
+
+            &:hover,
+            &:active {
+                color: #000;
+                text-decoration: underline;
+            }
+
+            i {
+                color: #808080;
+                margin-right: 5px;
+            }
+        }
 
 }
  
