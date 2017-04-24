@@ -291,9 +291,11 @@ $purple-color: #603673;
        content: "";
         border: none;
         margin: 0; 
-    }
+    }   
 
-   
+}
 
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+     cursor: pointer; 
 }
 
