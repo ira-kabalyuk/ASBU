@@ -26,6 +26,32 @@ $purple-color: #603673;
        }
     }
 
+    //header
+
+    .button-wrap {
+        display: none;
+    }
+
+    .navigation {
+
+        ul {
+            .button-wrap {
+                 display: block;
+                 margin-top: 15px;
+
+                 .button {
+                   font-size: 16px;
+                   color: #fff;
+                   font-weight: 100;
+                   letter-spacing: 2px;
+                   max-width: 220px;
+                 }
+            } 
+        }       
+    } 
+
+    //header
+
 //MAIN-PAGE
 
   .main-section {

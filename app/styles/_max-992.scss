@@ -50,15 +50,16 @@ $purple-color: #603673;
 
 	.logo {
 		width: 120px;
+		order:1;
 	}
 
 	.header {
 		padding: 15px 0;		
 
-	}
+	}	
 
 	.button-wrap {
-       margin-top: 10px;
+       order: 2;
     }
 
 	.content-flex-wrap {
@@ -69,6 +70,7 @@ $purple-color: #603673;
 
 		.navigation {
 			width: auto;
+			order: 3;
 
 			ul {
 				//height: 0;
@@ -76,16 +78,28 @@ $purple-color: #603673;
 				position: absolute;
 				left: 0;			
 				//transition: height .4s;
-				padding: 0 15px;
+				padding: 0 0 30px 0;
 				overflow-y: auto;
 				-webkit-overflow-scrolling: touch;
 				z-index: 1000;
 				background: #fff;
 				top: 125px;
-				height: auto;
-				padding-bottom: 20px;
+				height: auto;				
 				flex-direction: column;
-				display: none;
+				display: none;			
+
+				&:before {
+					content: "";
+					width: 100%;
+					height: 15px;
+					display: block;
+					background: linear-gradient(to bottom, #f6f6f6, #fff);
+
+					position: absolute;
+					left: 0;
+					bottom: 0;
+				}
+		
 
 				li {
 					width: 100%;
@@ -102,19 +116,17 @@ $purple-color: #603673;
 					padding-bottom: 20px;
 				}*/
 
-			}
-
-			
+			}			
 		}
 
   	.mobile-menu {
 		cursor: pointer;
+		display: block;
 		width: 35px;
 		height: 37px;
 		background: linear-gradient(to right, #7f4597, #c6529a);
 		text-align: center;	
-		line-height: 35px;
-		margin-top: 10px;
+		line-height: 35px;		
 		
 		.icon-menu {
 			vertical-align: middle;
@@ -135,7 +147,7 @@ $purple-color: #603673;
 				vertical-align: middle;
 			}		
 
-		}
+		}		
 
 	  }	
 

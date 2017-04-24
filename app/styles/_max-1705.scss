@@ -21,6 +21,16 @@ $purple-color: #603673;
         //margin-right: 280px;
 	}
 
+    .column-list {
+      margin: 0 -7px;  
+
+      li {
+         width: calc(33.3% - 14px);
+        margin: 0 7px;
+      }
+     
+    }
+
     .footer {
         width: calc(100% - 280px);
     }

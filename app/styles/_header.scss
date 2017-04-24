@@ -28,7 +28,9 @@ $purple-color: #603673;
 	}
 }
 
-
+.mobile-menu {
+	display: none;
+}
 //nav
 
 	.navigation {
@@ -68,6 +70,10 @@ $purple-color: #603673;
 
 			}
 
+		}
+
+		.button-wrap {
+			display: none;
 		}
 
 	}
