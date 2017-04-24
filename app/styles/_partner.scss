@@ -88,8 +88,7 @@ $purple-color: #603673;
             height: 100px;
 
             img {
-                width: auto;
-                height: auto;
+               object-fit: contain;
             }
         }
 

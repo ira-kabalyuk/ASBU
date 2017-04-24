@@ -3,7 +3,11 @@ $icon-font-path: '../fonts/';
 $border-color: #e2e2e2;
 $purple-color: #603673;
 
-@media only screen and (max-width: 1366px) {	
+@media only screen and (max-width: 1366px) {   
+	
+    .left-column {
+        margin-right: 50px;
+    }
 
    .navigation {
        padding: 0 5px;

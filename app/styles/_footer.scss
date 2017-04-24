@@ -19,10 +19,10 @@ $purple-color: #603673;
 			border-right: 1px solid $border-color;
 			display: flex;
 			flex-direction: column;
-			//align-items: center;
-			justify-content: center;
+			//align-items: center;			
 			margin: 0;	
 			//margin-right: 56px;
+			justify-content: flex-end;
 				
 
 			&:last-child {

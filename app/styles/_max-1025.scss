@@ -9,26 +9,14 @@ $purple-color: #603673;
         overflow-x: hidden;
     }
 
-    .slide-wrap {
-        display: none;
     
-	}
-
-	.pagewrap {
-		width: 100%;
-        //margin-right: 0;
-	}
 
     .navigation {    
         padding: 0 20px;
     }
 
     //footer
-
-    .footer {
-        width: 100%;
-    }
-
+        
     .footer-bottom-block {
 
         &:before {

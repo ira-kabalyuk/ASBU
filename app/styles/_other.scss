@@ -1,0 +1,22 @@
+$icon-font-path: '../fonts/';
+
+$border-color: #e2e2e2;
+$purple-color: #603673;
+
+@media (min-width: 1191px) and (max-width: 1300px) {
+
+   //pay
+
+   .pay-block {
+
+       .img-wrap {
+           float: none;
+           max-width: 100%;
+           margin-left: 0;
+       }
+   }
+
+   //end pay
+
+}
+

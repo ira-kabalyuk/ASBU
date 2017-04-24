@@ -48,7 +48,7 @@ $purple-color: #603673;
             display: flex;
             justify-content: center;
             flex-direction: column ;
-            padding: 0 35px;          
+            padding: 35px;          
         }
     }
    
@@ -208,11 +208,7 @@ $purple-color: #603673;
     font-family: 'Lato', sans-serif;
     line-height: 2em;
     font-size: 16px;
-    font-weight: 400;
-    max-height: 200px;
-    overflow: hidden;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
+    font-weight: 400;    
     padding: 0 15px;
 
     a {
