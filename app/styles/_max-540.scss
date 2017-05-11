@@ -190,8 +190,25 @@ $purple-color: #603673;
             float: none;
         }
 
+        .logo-wrap {
+            text-align: center;
+            margin: 15px 0;
+            float: none;
+            max-width: 100%;
     }
 
+    .content-list {       
+
+        li {
+           
+                flex-direction: row;
+            }
+        }
+
+
+    }
+
+    
     
 
     //PAY END

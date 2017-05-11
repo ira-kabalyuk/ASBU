@@ -113,8 +113,18 @@ $(".mobile-menu").click(function( e ) {
        
     });  
 
-    //end paging   
+    //end paging 
+
+    objectFit.polyfill({
+		selector: 'img', // this can be any CSS selector
+		fittype: 'contain', // either contain, cover, fill or none
+		disableCrossDomain: 'true' // either 'true' or 'false' to not parse external CSS files.
+	});  
 
 
 });
+
+
+	
+
 

@@ -41,5 +41,8 @@
         "single"
       ]
     }
+  },
+  "dependencies": {
+    "object-fit": "^0.4.3"
   }
 }
