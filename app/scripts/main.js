@@ -5,22 +5,54 @@ jQuery(document).ready(function() {
 
   //slider
 
- $('.popup-gallery').magnificPopup({
+ $('.popup-gallery').magnificPopup({      
+        /*midClick: true,
 		delegate: 'a',
 		type: 'image',
 		tLoading: 'Loading image #%curr%...',
-		mainClass: 'mfp-img-mobile',
+		mainClass: 'mfp-img-mobile',*/
 		gallery: {
 			enabled: true,
-			navigateByImgClick: true,
-			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+			/*navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image*/
 		},
 		image: {
 			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-			titleSrc: function(item) {
+			/*titleSrc: function(item) {
 				return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
-			}
-		}
+			}*/
+		},
+        items: [
+            {
+            src: '#v1',
+            type: 'inline'
+          },          
+          {
+            src: 'http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg'
+          },
+          {
+            src: 'http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg'
+          },
+          {
+            src: 'http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_b.jpg'
+          },
+
+          {
+            src: 'http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_s.jpg'
+          },
+
+          {
+            src: 'http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_b.jpg'
+          },
+          {
+            src: 'http://farm9.staticflickr.com/8378/8559402848_9fcd90d20b_b.jpg'
+          },
+          {
+            src: 'images/photo.jpg'
+          },
+          
+        ],
+        type: 'image' // this is default type
 	});
 
 //end slider
@@ -115,11 +147,11 @@ $(".mobile-menu").click(function( e ) {
 
     //end paging 
 
-    objectFit.polyfill({
+   /* objectFit.polyfill({
 		selector: 'img', // this can be any CSS selector
 		fittype: 'contain', // either contain, cover, fill or none
 		disableCrossDomain: 'true' // either 'true' or 'false' to not parse external CSS files.
-	});  
+	});  */
 
 
 });
